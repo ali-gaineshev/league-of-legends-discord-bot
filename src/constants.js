@@ -3,13 +3,30 @@
 const na_lol_base_url = "https://na1.api.riotgames.com/lol"
 
 const RIOT_CONSTANTS = Object.freeze({
-  riotIdGameName: "riotIdGameName",
-  riotIdTagLine: "riotIdTagLine",
+  riot_id_game_name: "riotIdGameName",
+  riot_id_tag_line: "riotIdTagLine",
   puuid: "puuid",
   id: "id",
-  summoner_id: "summoner_id",
+  summoner_id: "summonerId",
   account_id: "accountId",
-  profile_icon_id: "profileIconId"
+  summoner_level: "summonerLevel",
+  profile_icon_id: "profileIconId",
+  league_id: "leagueId",
+  queue_type: "queueType",
+  ranked_flex_key: "RANKED_FLEX_SR",
+  ranked_flex: "ranked_flex",
+  ranked_solo_key: "RANKED_SOLO_5x5",
+  ranked_solo: "ranked_solo",
+  tier: "tier",
+  rank: "rank",
+  is_hot_streak: "hotStreak",
+  wins: "wins",
+  losses: "losses",
+
+  team_order: "ORDER",
+  team_blue: "Blue Team",
+  team_chaos: "CHAOS",
+  red_team: "Red Team"
 });
 
 const RIOT_API = Object.freeze({
@@ -37,3 +54,8 @@ module.exports = { RIOT_API, RIOT_CONSTANTS, CONSTANTS };
 // summonerId - id - O3qrP3GVuVrC-C1t1HSigKl_ZFZPB8tzDsrH4BqkAqfnif8o
 // accountId - ghJBmSXLtMOWV93_5iBHb_hLn31N6Y_2L2bnX-XDVMe006bZhWx3gwAL
 // league id - d89374dc-7148-47ea-8214-88e5c00b4e42
+
+// kayden
+// puuid - fdzOic-IJ0_YZV89dVZ6nasA2Eq65wAoFkVZXYQ0pJRDGZ9a2jTFE_s0LvwPhvwbjPGrlmmn_oepiQ
+// summonner id - _4VTSPgAO_ixbJbtCDCDLw8nHBIADsX20XK1zrPPgXt7mx8
+// account id - cnATm-k5TtDIKMHXtmPYCYwXbuC1_H2cB7d3patIBT6LMJo
